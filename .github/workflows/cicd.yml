@@ -72,7 +72,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build Project
-      run: mvn project
+      run: mvn package
 
     - uses: actions/checkout@v4
       with:
